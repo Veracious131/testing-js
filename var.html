@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" name="" id="score" placeholder="input your desire score">
+    <button onclick="checkScore()">Check score</button>
+
+    <script>
+        function checkScore(){
+            if(score.value <0){
+                alert(' you no like youself o! how come nah bad score you dey think for yourself?')
+            } 
+            if(score.value >=0 && score.value <= 40){
+                alert('Omo you don fail o')
+            } else if(score.value >= 40 && score.value<=45){
+                alert('E')
+            } else if(score.value >= 46 && score.value<=49){
+                alert('D')
+            } else if(score.value >= 50 && score.value<=59){
+                alert('C')
+            } else if(score.value >= 60 && score.value<=69){
+                alert('B')
+            }
+             
+            else if( score.value >=70 && score.value <=100){
+                alert('sharp guy, you self try')
+            } else if ( score.value > 100){
+                alert('not recognized' )
+            }
+        }
+        // 0-39 F
+        // 40-45 E
+        // 46-49 D
+        // 50-59 C
+        // 60-69 B
+        // 70-100 A
+         
+    </script>
+</body>
+</html>
